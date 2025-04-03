@@ -1,0 +1,22 @@
+.task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.text {
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.delete {
+    width: 25px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    accent-color: grey;
+    cursor: pointer;
+}
